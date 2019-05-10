@@ -17,9 +17,9 @@ I used the following three data sources to compile datasets with information abo
 ## Data Cleaning 
 
 * For each of the three data frames:
-** Dealt with missing values.
-** Deleted unnecessary columns.
-** Changed column value formats, names and other “pandas adventures” so I could later merge the dataframes.
+    - Dealt with missing values.
+    - Deleted unnecessary columns.
+    - Changed column value formats, names and other “pandas adventures” so I could later merge the dataframes.
 * Merged district data with individual county demographics to create a “district demographics” datafame.
 * Merged Democratic Midterm Primary data with newly created “district demographics” dataframe in order to put all the information into one final dataframe. 
 * Converted all values into uniform units of measurement. 
