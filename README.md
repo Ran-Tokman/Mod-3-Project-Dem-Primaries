@@ -175,6 +175,7 @@ Most significant coefficients:
 * Use boosting classifiers such as XGBoost and Adaboosting.
 * Interaction variables seemed to be quite significant in “Feature Importance”, so I should create more and see if that will improve any of the models.
 * As you can see below a lot of the data in the independent variables is not normalized, so see if normalizing it will improve and of the models.
+<img src="./Images/Picture26.png">
 * Try and see if I could get policy positions (i.e. support for Medicare For All, taxing the wealthy, immigration) for the candidates and see if ideology has had an affect on voting patterns. 
 
 
