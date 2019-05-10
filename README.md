@@ -78,7 +78,7 @@ The cleaned dataframe had 800 rows and 32 features, including but not limited to
 •	I used a Decision Tree Model for Feature Selection:
 <img src="./Images/Picture12.png">
 
--	I removed unrelated features and ended up with a total of 25 features. 
+It is evident that the interaction features that I've created are the most important. I removed unrelated features and ended up with a total of 25 features. 
 
 ## Model Fitting and Hyperparameter Tuning
 
@@ -91,12 +91,16 @@ The cleaned dataframe had 800 rows and 32 features, including but not limited to
 •	As we can see the training data is imbalance with 449 losses and 191 wins. 
 <img src="./Images/Picture14.png">
 
-#### Oversampling to fix the imbalance issue:
+* Oversampling to fix the imbalance issue:
 <img src="./Images/Picture15.png">
+
+### Scaling The Data
+
+<img src="./Images/Picture25.png">
 
 ### Model Fitting
 
-I used the following classification models: KNN, Decision Tree, Random Forest and Logistic Regression, all tuned with RandomizedSearchCV to find the best parameters. 
+I used the following classification models: KNN, Decision Tree, Random Forest and Logistic Regression, all tuned with RandomizedSearchCV to find the best parameters. The goal was to minimize False Negatives and False Positives while maximizing True Positives. 
 
 •	KNN Model:
 <img src="./Images/Picture16.png">
