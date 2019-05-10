@@ -91,7 +91,7 @@ The cleaned dataframe had 800 rows and 32 features, including but not limited to
 •	As we can see the training data is imbalance with 449 losses and 191 wins. 
 <img src="./Images/Picture14.png">
 
-•	I used oversampling to fix the imbalance issue:
+#### Oversampling to fix the imbalance issue:
 <img src="./Images/Picture15.png">
 
 ### Model Fitting
@@ -105,10 +105,10 @@ I used the following classification models: KNN, Decision Tree, Random Forest an
 -	Best training accuracy: 0.805
 -	Test set F1 score for best params: 0.433 
 
-- 84 TP
-- 28 FP (Type I Error)
-- 27 FN (Type II Error)
-- 21 TN
+- 21 TP
+- 27 FP (Type I Error)
+- 28 FN (Type II Error)
+- 84 TN
 <img src="./Images/Picture17.png">
 
 •	Decision Tree Model:
@@ -118,10 +118,10 @@ I used the following classification models: KNN, Decision Tree, Random Forest an
 -	Best training accuracy: 0.678
 -	Test set F1 score for best params: 0.380 
 
-- 79 TP
-- 30 FP (Type I Error)
-- 32 FN (Type II Error)
-- 19 TN
+- 19 TP
+- 32 FP (Type I Error)
+- 30 FN (Type II Error)
+- 79 TN
 <img src="./Images/Picture19.png">
 
 •	Random Forest Model:
@@ -131,10 +131,10 @@ I used the following classification models: KNN, Decision Tree, Random Forest an
 -	Test Accuracy score:  0.65
 -	Test F1 score:  0.540983606557377
 
-- 71 TP
-- 16 FP (Type I Error)
-- 40 FN (Type II Error)
-- 33 TN
+- 33 TP
+- 40 FP (Type I Error)
+- 16 FN (Type II Error)
+- 71 TN
 <img src="./Images/Picture21.png">
 
 •	Logistic Model- The Best and Final Model
@@ -142,10 +142,10 @@ I used the following classification models: KNN, Decision Tree, Random Forest an
 
 <img src="./Images/Picture23.png">
 
-- 79 TP
-- 18 FP (Type I Error)
-- 32 FN (Type II Error)
-- 31 TN
+- 31 TP
+- 32 FP (Type I Error)
+- 18 FN (Type II Error)
+- 79 TN
 <img src="./Images/Picture24.png">
 
 Most significant coefficients: 
@@ -168,8 +168,9 @@ Most significant coefficients:
 
 ## Next Steps:
 
-•	Interaction Variables seemed to be quite significant in “Feature Importance”, so I should create more and see if that will improve any of the models.
-•	As you can see below a lot of the data in the independent variables is not normalized, so see if normalizing it will improve and of the models.
-•	Try and see if I could get policy positions (i.e. support for Medicare For All, taxing the wealthy, immigration) for the candidates and see if ideology has had an affect on voting patterns. 
+* Use boosting classifiers such as XGBoost and Adaboosting.
+* Interaction variables seemed to be quite significant in “Feature Importance”, so I should create more and see if that will improve any of the models.
+* As you can see below a lot of the data in the independent variables is not normalized, so see if normalizing it will improve and of the models.
+* Try and see if I could get policy positions (i.e. support for Medicare For All, taxing the wealthy, immigration) for the candidates and see if ideology has had an affect on voting patterns. 
 
 
