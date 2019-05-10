@@ -26,22 +26,22 @@ I used the following three data sources to compile datasets with information abo
 <img src="./Images/Picture2.png">
 
 The cleaned dataframe had 800 rows and 32 features, including but not limited to:
-•	`Candidate`
-•	`District`
-•	`Won Primary` : “Yes” if the candidate won his or her primary and has advanced to November; “No” if he or she lost.
-•	`Gender`
-•	`Partisan Lean` : The FiveThirtyEight partisan lean of the district or state in which the election was held. Partisan leans are calculated by finding the average difference between how a state or district voted in the past two presidential elections and how the country voted overall, with 2016 results weighted 75 percent and 2012 results weighted 25 percent.
-•	`Race`: “White” if  the candidate is non-Hispanic white; “Nonwhite” if the candidate is Hispanic and/or any nonwhite race.
-•	`Vetern?`
-•	`LGBTQ?`
-•	`trump16`, `clinton16`, `obama12`, `romney12` : presidential candidate vote totals in 2012 and 2016.
-•	`black_pct` : non-Hispanic blacks as a percentage of total population.
-•	`female_pct` : females as a percentage of total population.
-•	`foreignborn_pct` : foreign-born population as a percentage of total population.
-•	`age29andunder_pct` : population 29 years or under as a percentage of total population.
-•	`median_hh_inc` : median household income in the past 12 months (in 2016 inflation-adjusted dollars).
-•	`lesshs_whites_pct` : white population with an education of less than a regular high school diploma as a percentage of total population.
-•	`rural_pct` : rural population as a percentage of total population. 
+* `Candidate`
+* `District`
+* `Won Primary` : “Yes” if the candidate won his or her primary and has advanced to November; “No” if he or she lost.
+* `Gender`
+* `Partisan Lean` : The FiveThirtyEight partisan lean of the district or state in which the election was held. Partisan leans are calculated by finding the average difference between how a state or district voted in the past two presidential elections and how the country voted overall, with 2016 results weighted 75 percent and 2012 results weighted 25 percent.
+* `Race`: “White” if  the candidate is non-Hispanic white; “Nonwhite” if the candidate is Hispanic and/or any nonwhite race.
+* `Vetern?`
+* `LGBTQ?`
+* `trump16`, `clinton16`, `obama12`, `romney12` : presidential candidate vote totals in 2012 and 2016.
+* `black_pct` : non-Hispanic blacks as a percentage of total population.
+* `female_pct` : females as a percentage of total population.
+* `foreignborn_pct` : foreign-born population as a percentage of total population.
+* `age29andunder_pct` : population 29 years or under as a percentage of total population.
+* `median_hh_inc` : median household income in the past 12 months (in 2016 inflation-adjusted dollars).
+* `lesshs_whites_pct` : white population with an education of less than a regular high school diploma as a percentage of total population.
+* `rural_pct` : rural population as a percentage of total population. 
 
 ## Initial Observations From EDA
 
