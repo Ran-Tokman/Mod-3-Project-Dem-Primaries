@@ -1,4 +1,4 @@
-# Mod-3-Project-Dem-Primaries
+# Mod 3 Project-Democratic Primaries
 
 
 ## Project Goals
